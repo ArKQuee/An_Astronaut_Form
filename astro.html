@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Travel Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h1>Rocket around the moon with your BFFs</h1>
+            <form>
+                <label for="country">Departure Country</label>
+                <select id="country" name="country">
+                    <option value="INDIA">INDIA</option>
+                    <option value="USA">USA</option>
+                    <option value="UK">UK</option>
+                </select>
+
+                <label for="travellers">No. of Space Travellers</label>
+                <select id="travellers" name="travellers">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+
+                <label for="email">Your email</label>
+                <input type="email" id="email" name="email" placeholder="youremail@example.com" required>
+
+                <label>Do you wanna rent a space suit?</label>
+                <input type="radio" id="yes" name="spacesuit" value="Yes" checked>
+                <label for="yes">Yes, Please!!</label>
+                <input type="radio" id="no" name="spacesuit" value="No">
+                <label for="no">No, I have my own.</label>
+
+                <button type="submit">TAKE US TO SPACE</button>
+            </form>
+        </div>
+        <img src="https://kq-storage.s3.ap-south-1.amazonaws.com/Github/astronaut/space-man-1%5B1%5D.png" class="astronaut astronaut-1" alt="Astronaut">
+        <img src="https://kq-storage.s3.ap-south-1.amazonaws.com/Github/astronaut/space-man-2%5B1%5D.png" class="astronaut astronaut-2" alt="Astronaut">
+    </div>
+</body>
+</html>
